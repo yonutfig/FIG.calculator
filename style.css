@@ -1,0 +1,81 @@
+body { 
+    overflow: hidden;
+}
+.app { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./pentru\ calculator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 45%;
+
+}
+* {
+    transition: 0.3s all;
+}
+
+.calculator {
+    
+    height: 550px;
+    width: 360px;
+    background-image: url(./nobck.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(207, 205, 205);
+    border-radius: 20px;
+    padding: 90px 20px;
+    user-select: none;
+    box-shadow:
+            0 0 20px rgba(0, 0, 0, 0.2),
+            0 0 40px rgba(0, 0, 0, 0.1),
+            0 0 60px rgba(0, 0, 0, 0.1),
+            0 0 80px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+}
+.calculator:hover {
+    box-shadow:
+        0 0 20px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(0, 0, 0, 0.3),
+        0 0 60px rgba(0, 0, 0, 0.3),
+        0 0 80px rgba(0, 0, 0, 0.3);
+}
+.display { 
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    color: white;
+    text-align: end;
+    padding: 20px 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.key  {
+    min-height: 60px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 227, 227);
+    border-radius: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.key:hover { 
+    
+    background: linear-gradient(45deg , rgb(137, 136, 136) , rgb(231, 229, 229));
+}
+.keyboard { 
+    display: flex;
+    
+}
+.imglogo { 
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 230px;
+    left: 720px;
+    
+}
